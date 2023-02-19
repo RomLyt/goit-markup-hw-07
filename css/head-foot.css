@@ -1,0 +1,184 @@
+/* logo */
+.logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 16px;
+
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+}
+
+.logo-dark {
+    color: var(--primary-text);
+}
+
+.logo-white {
+    color: var(--second-white-color);
+}
+
+/* Footer */
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--primary-text);
+}
+
+div.foorer.container {
+    width: 264px;
+    height: 110px;
+
+}
+
+.foot-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    margin-bottom: 72px;
+    margin-top: 0;
+}
+
+.footer .logo {
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.footer-media {
+    display: block;
+
+}
+
+.social-media {
+    margin-top: 0;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 1.5;
+    color: var(--white-text);
+    text-align: center;
+}
+
+.footer-action {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    justify-content: center;
+}
+
+.footer-link {
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: block;
+    border: none;
+    height: 40px;
+    fill: var(--second-white-color);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:focus,
+.footer-link:hover {
+    background: #31D0AA;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    fill: var(--second-white-color)
+}
+
+/* Subscribe */
+
+.footer-subscribe {
+    display: block;
+    margin-top: 72px;
+    margin-bottom: 16px;
+}
+
+.subscribe-bloc {}
+
+.subscribe-mail {
+
+    position: relative;
+}
+
+.subscribe-mail input {
+    padding-left: 16px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--gray-text);
+    background-color: var(--primary-text);
+    outline: none;
+
+}
+
+.subscribe-mail label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
+
+.sub-btn {
+    margin-top: 16px;
+    width: 165px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-btn {
+    margin: 0;
+    padding-left: 24px;
+    width: 100%;
+    height: 40px;
+    background: #4D5AE5;
+    border-radius: 4px;
+    border-style: none;
+    text-align: left;
+    color: var(--white-text);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    background-color: var(--hover-color);
+}
+
+.subscribe-logo {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+
+    fill: #404BBF;
+}
