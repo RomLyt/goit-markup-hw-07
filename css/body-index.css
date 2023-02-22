@@ -7,8 +7,10 @@
     margin-right: auto;
     text-align: center;
     background-color: rgba(46, 47, 66, 0.7);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/dark-bg_mob@1x.webp);
     background-position: center;
+    background-size: cover;
+    object-fit: none;
 
 }
 @media screen and (min-width: 1158px) {
@@ -58,6 +60,12 @@
 .feature-box {
     padding: 96px 0px;
 }
+@media screen and (min-width: 1158px) {
+    .feature-box {
+        padding: 120px 0px;
+    }
+}
+
 .feature {
     display: flex;
     flex-wrap: wrap;
@@ -72,8 +80,14 @@
         column-gap: 24px;
     }
 }
+@media screen and (min-width: 1158px) {
+    .element {
+        flex-basis: 264px;
+    }
+}
 
 .element-icon {
+    display: flex;
     margin-bottom: 8px;
     width: 264px;
     height: 112px;
@@ -99,6 +113,13 @@
         text-align: left;
     }
 }
+@media screen and (min-width: 1158px) {
+    .feature-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}
 .feature-text {
     margin: 0;
     font-weight: 500;
@@ -106,6 +127,11 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text);
+}
+@media screen and (min-width: 1158px) {
+    .feature-text {
+        font-weight: 400;
+    }
 }
 
 @media screen and (max-width: 1157px) {
@@ -138,7 +164,7 @@
 }
 
 .doing-img {
-
+    display: flex;
     padding: 0;
 }
 
@@ -152,6 +178,12 @@
     padding-top: 96px;
     padding-bottom: 128px;
     background-color: #F4F4FD;
+}
+@media screen and (min-width: 1158px) {
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 }
 .team-card {
     display: flex;
@@ -290,6 +322,11 @@
     .client-list {
         width: 552px;
         column-gap: 24px;
+    }
+}
+@media screen and (min-width: 1158px) {
+    .client-list {
+        width: 1128px;
     }
 }
 
