@@ -16,7 +16,7 @@
   background-size: cover;
   object-fit: none;
 }
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -34,7 +34,7 @@
       url(../images/hero/bg_tab@1x.webp);
   }
 }
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -43,7 +43,7 @@
       url(../images/hero/bg_tab@2x.webp);
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .hero {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-image: linear-gradient(
@@ -53,7 +53,7 @@
       url(../images/hero/bg_desktop@1x.webp);
   }
 }
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -104,7 +104,7 @@
 .feature-box {
   padding: 96px 0px;
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .feature-box {
     padding: 120px 0px;
   }
@@ -124,7 +124,7 @@
     column-gap: 24px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .element {
     flex-basis: 264px;
   }
@@ -156,7 +156,7 @@
     text-align: left;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .feature-title {
     font-weight: 500;
     font-size: 20px;
@@ -171,13 +171,13 @@
   letter-spacing: 0.02em;
   color: var(--secondary-text);
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .feature-text {
     font-weight: 400;
   }
 }
 
-@media screen and (max-width: 1157px) {
+@media screen and (max-width: 1199px) {
   .element-icon {
     display: none;
   }
@@ -185,7 +185,7 @@
 
 /* Doing section */
 
-@media screen and (max-width: 1157px) {
+@media screen and (max-width: 1199px) {
   .doing {
     display: none;
   }
@@ -222,7 +222,7 @@
   padding-bottom: 128px;
   background-color: #f4f4fd;
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .team {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -356,7 +356,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 480px) {
   .client-list {
     width: 396px;
   }
@@ -367,7 +367,7 @@
     column-gap: 24px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .client-list {
     width: 1128px;
   }

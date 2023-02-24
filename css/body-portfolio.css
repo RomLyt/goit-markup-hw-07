@@ -2,20 +2,34 @@
 
 /* Filter */
 
-.filter-section {
+.portfolio-section {
     padding-top: 48px;
     padding-bottom: 48px;
 }
 @media screen and (min-width: 768px) {
-    .filter-section {
+    .portfolio-section {
         padding-top: 64px;
-        padding-bottom: 64px;
+        padding-bottom: 96px;
     }
 }
-@media screen and (min-width: 1158px) {
-    .filter-section {
+@media screen and (min-width: 1200px) {
+    .portfolio-section {
         padding-top: 96px;
-        padding-bottom: 72px;
+        padding-bottom: 120px;
+    }
+}
+
+.filter-section {
+    margin-bottom: 48px;
+}
+@media screen and (min-width: 768px) {
+    .filter-section {
+        margin-bottom: 64px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .filter-section {
+        margin-bottom: 72px;
     }
 }
 
@@ -67,6 +81,13 @@
     row-gap: 48px;
     padding-left: 0;
 }
+@media screen and (max-width: 767px) {
+    .portfolio-card {
+        padding-bottom: 96px;
+        justify-content: center;
+        row-gap: 72px;
+    }
+}
 @media screen and (min-width: 768px) {
     .portfolio-card {
         padding-bottom: 96px;
@@ -74,7 +95,7 @@
         row-gap: 72px;
     }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
     .portfolio-card {
         padding-bottom: 120px;
         column-gap: 24px;
@@ -126,18 +147,25 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 1157px) {
+@media screen and (max-width: 767px) {
     .por-thumb img {
         max-width: 396px;
         max-height: 400px;
     }
 }
-@media screen and (max-width: 1157px) {
+@media screen and (max-width: 1199px) {
     .por-thumb img {
         max-width: 356px;
         max-height: 420px;
     }
 }
+@media screen and (min-width: 1200px) {
+    .por-thumb img {
+        max-width: 360px;
+        max-height: 420px;
+    }
+}
+
 
 .por-quote {
     display: inline-block;

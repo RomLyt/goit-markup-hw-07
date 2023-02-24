@@ -62,12 +62,17 @@ body {
         max-width: 428px;
     }
 }
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 428px;
+    }
+}
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
     .container {
         max-width: 1158px;
         padding: 0px 15px;
